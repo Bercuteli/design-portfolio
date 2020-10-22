@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { ViewTabs as Tabs} from '../../enums/viewTabs';
 import { ProjectsList } from '../../containers/ProjectsList';
 import { ViewTabs } from '../../containers/ViewTabs';
+import { Preview } from '../../containers/Preview';
 import { Wrapper } from './Project.style';
 
 const Project = () => {
@@ -21,6 +22,9 @@ const Project = () => {
         <ViewTabs
           currentTab={currentTab}
           onChange={onChangeTab}
+        />
+        <Preview
+          currentTab={currentTab}
         />
       </div>
     </Wrapper>
