@@ -10,6 +10,7 @@ const ProjectsList = () => {
 
   return (
     <Wrapper>
+      <h3>Projects</h3>
       {projects.map(project => {
         const { id, name, description } = project;
         const className = clsx('item', {
