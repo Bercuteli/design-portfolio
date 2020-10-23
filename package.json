@@ -2,7 +2,11 @@
   "name": "design-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bercuteli.github.io/design-portfolio/",
+  "homepage": "/design-portfolio/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bercuteli/design-portfolio"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

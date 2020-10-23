@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { RoutesUI } from '../enums/routes';
 import { ProjectsList } from '../containers/ProjectsList';
 import { Wrapper } from './Routes.style';
+import { config } from '../config';
 
 const About = lazy(() => import('../pages/About'));
 const Project = lazy(() => import('../pages/Project'));
@@ -11,7 +12,7 @@ const Project = lazy(() => import('../pages/Project'));
 const Routes: FC = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={config.publicURL}>
       <Wrapper>
         <ProjectsList />
 
