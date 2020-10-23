@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 import { Project } from '../../interfaces/project.interface';
 import { ViewTabs } from '../../enums/viewTabs';
-import { projects } from '../../assets/projects';
+import { projects } from '../../projects/projects';
 
 import { ImageView } from '../../components/ImageView';
 import { Wrapper } from './Preview.style';

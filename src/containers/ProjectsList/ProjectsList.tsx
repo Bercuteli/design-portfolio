@@ -1,12 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
-import { useParams, NavLink } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 
-import { projects } from '../../assets/projects';
+import { projects } from '../../projects/projects';
 import { Wrapper } from './ProjectsList.style';
 
 const ProjectsList = () => {
-  const { projectName } = useParams();
+  const { pathname } = useLocation();
 
   return (
     <Wrapper>
@@ -14,7 +14,7 @@ const ProjectsList = () => {
       {projects.map(project => {
         const { id, name, description } = project;
         const className = clsx('item', {
-          active: id === projectName,
+          active: pathname.includes(id),
         });
 
         return (
