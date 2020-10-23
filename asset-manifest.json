@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.js": "/design-portfolio/static/js/main.287bfd21.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.287bfd21.chunk.js.map",
-    "runtime-main.js": "/design-portfolio/static/js/runtime-main.d9e1d791.js",
-    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.d9e1d791.js.map",
-    "static/js/2.84dd0423.chunk.js": "/design-portfolio/static/js/2.84dd0423.chunk.js",
-    "static/js/2.84dd0423.chunk.js.map": "/design-portfolio/static/js/2.84dd0423.chunk.js.map",
-    "static/js/3.7728121a.chunk.js": "/design-portfolio/static/js/3.7728121a.chunk.js",
-    "static/js/3.7728121a.chunk.js.map": "/design-portfolio/static/js/3.7728121a.chunk.js.map",
-    "static/js/4.73b9e1b5.chunk.js": "/design-portfolio/static/js/4.73b9e1b5.chunk.js",
-    "static/js/4.73b9e1b5.chunk.js.map": "/design-portfolio/static/js/4.73b9e1b5.chunk.js.map",
+    "main.js": "/design-portfolio/static/js/main.95804b51.chunk.js",
+    "main.js.map": "/design-portfolio/static/js/main.95804b51.chunk.js.map",
+    "runtime-main.js": "/design-portfolio/static/js/runtime-main.37fb9305.js",
+    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.37fb9305.js.map",
+    "static/js/2.22bfcde9.chunk.js": "/design-portfolio/static/js/2.22bfcde9.chunk.js",
+    "static/js/2.22bfcde9.chunk.js.map": "/design-portfolio/static/js/2.22bfcde9.chunk.js.map",
+    "static/js/3.02b69275.chunk.js": "/design-portfolio/static/js/3.02b69275.chunk.js",
+    "static/js/3.02b69275.chunk.js.map": "/design-portfolio/static/js/3.02b69275.chunk.js.map",
+    "static/js/4.acc4b1d6.chunk.js": "/design-portfolio/static/js/4.acc4b1d6.chunk.js",
+    "static/js/4.acc4b1d6.chunk.js.map": "/design-portfolio/static/js/4.acc4b1d6.chunk.js.map",
     "index.html": "/design-portfolio/index.html",
-    "precache-manifest.aab1729eb0001d9b6a918a0d9bced1f6.js": "/design-portfolio/precache-manifest.aab1729eb0001d9b6a918a0d9bced1f6.js",
+    "precache-manifest.bb7ef38949fe76681d22d78faa936ccd.js": "/design-portfolio/precache-manifest.bb7ef38949fe76681d22d78faa936ccd.js",
     "service-worker.js": "/design-portfolio/service-worker.js",
-    "static/js/2.84dd0423.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.84dd0423.chunk.js.LICENSE.txt",
+    "static/js/2.22bfcde9.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.22bfcde9.chunk.js.LICENSE.txt",
     "static/media/design.jpg": "/design-portfolio/static/media/design.e05703aa.jpg",
+    "static/media/image-gallery.svg": "/design-portfolio/static/media/image-gallery.656fc865.svg",
     "static/media/sketch.jpg": "/design-portfolio/static/media/sketch.abfc77c2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9e1d791.js",
-    "static/js/2.84dd0423.chunk.js",
-    "static/js/main.287bfd21.chunk.js"
+    "static/js/runtime-main.37fb9305.js",
+    "static/js/2.22bfcde9.chunk.js",
+    "static/js/main.95804b51.chunk.js"
   ]
 }
