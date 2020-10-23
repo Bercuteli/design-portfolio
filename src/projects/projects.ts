@@ -7,7 +7,6 @@ import CatsSystemDesign from './catsSystem/design.jpg';
 import CatsSystemHTML from './catsSystem/html';
 
 // dog-store
-import DogStoreSketch from './dogStore/sketch.jpeg';
 import DogStoreDesign from './dogStore/design.jpg';
 import DogStoreHTML from './dogStore/html';
 
@@ -24,7 +23,7 @@ export const projects: Array<Project> = [
     id: Projects.dogStore,
     name: 'Dog Store',
     description: 'Everything for your dogs',
-    sketch: DogStoreSketch,
+    sketch: '',
     design: DogStoreDesign,
     html: DogStoreHTML,
   },

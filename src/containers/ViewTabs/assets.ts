@@ -1,7 +1,7 @@
-import { ViewTabs, ViewTabsTitles } from '../../enums/viewTabs';
+import { PreviewTypes, PreviewTitles } from '../../enums/previewTypes';
 
 export const tabs = [
-  { name: ViewTabs.sketch, title: ViewTabsTitles.sketch },
-  { name: ViewTabs.design, title: ViewTabsTitles.design },
-  { name: ViewTabs.prototype, title: ViewTabsTitles.prototype },
+  { name: PreviewTypes.sketch, title: PreviewTitles.sketch },
+  { name: PreviewTypes.design, title: PreviewTitles.design },
+  { name: PreviewTypes.prototype, title: PreviewTitles.prototype },
 ];

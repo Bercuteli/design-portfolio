@@ -1,10 +1,10 @@
-export enum ViewTabs {
+export enum PreviewTypes {
   sketch = 'sketch',
   design = 'design',
   prototype = 'prototype',
-};
+}
 
-export enum ViewTabsTitles {
+export enum PreviewTitles {
   sketch = 'Sketch',
   design = 'Design',
   prototype = 'HTML Prototype',

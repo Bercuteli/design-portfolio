@@ -1,42 +1,33 @@
-import React, { FC, useCallback, MouseEvent } from 'react';
+import React, { FC } from 'react';
 import clsx from 'clsx';
-
-import { ViewTabs as Tabs } from '../../enums/viewTabs';
+import { useParams, NavLink } from 'react-router-dom';
 
 import { tabs } from './assets';
 import { Wrapper } from './ViewTabs.style';
+import { PreviewTypes } from '../../enums/previewTypes';
+import { RoutesUI } from '../../enums/routes';
 
-interface Props {
-  currentTab: Tabs,
-  onChange: (tab: Tabs) => void,
-}
+const ViewTabs: FC = () => {
+  const {
+    projectName,
+    previewType = PreviewTypes.design,
+  } = useParams();
 
-const ViewTabs: FC<Props> = ({ currentTab, onChange }) => {
-
-  const onClick = useCallback((event: MouseEvent<HTMLDivElement>) => {
-    const target = event.target as HTMLElement;
-    if (target.id) {
-      onChange(target.id as Tabs);
-    }
-  }, [onChange]);
+  const currentTab: PreviewTypes = previewType as PreviewTypes;
 
   return (
     <Wrapper>
       {tabs.map(tab => {
         const { name, title } = tab;
+        const url = `${RoutesUI.projectPath}/${projectName}/${name}`;
         const className = clsx('item', {
           active: name === currentTab,
         });
 
         return (
-          <div
-            id={name}
-            key={name}
-            className={className}
-            onClick={onClick}
-          >
+          <NavLink to={url} key={name} className={className}>
             {title}
-          </div>
+          </NavLink>
         )
       })}
     </Wrapper>

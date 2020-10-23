@@ -1,5 +1,6 @@
 export enum RoutesUI {
   home = '/',
   about = '/about',
-  project = '/project/:projectName',
+  project = '/project/:projectName/:previewType?',
+  projectPath = '/project',
 };

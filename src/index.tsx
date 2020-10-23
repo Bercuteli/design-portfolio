@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import * as serviceWorker from './serviceWorker';
+import { GlobalStyle } from './globalStyles';
 import { Routes } from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes />
+    <>
+      <GlobalStyle />
+      <Routes />
+    </>
   </React.StrictMode>,
   document.getElementById('root')
 );

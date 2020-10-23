@@ -2,18 +2,18 @@ import React, { FC } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { Project } from '../../interfaces/project.interface';
-import { ViewTabs } from '../../enums/viewTabs';
+import { PreviewTypes } from '../../enums/previewTypes';
 import { projects } from '../../projects/projects';
 
 import { ImageView } from '../../components/ImageView';
+import { NoImage } from '../../components/NoImage';
 import { Wrapper } from './Preview.style';
 
-interface Props {
-  currentTab: ViewTabs,
-};
-
-const Preview: FC<Props> = ({ currentTab }) => {
-  const { projectName } = useParams();
+const Preview: FC = () => {
+  const {
+    projectName,
+    previewType = PreviewTypes.design,
+  } = useParams();
 
   const project = projects.find(p => {
     return p.id === projectName;
@@ -23,17 +23,20 @@ const Preview: FC<Props> = ({ currentTab }) => {
     return null;
   }
 
-  const view = project[currentTab as keyof Project];
-  if (!view) {
-    return null;
-  }
+  const selectedPreview: PreviewTypes = previewType as PreviewTypes;
+  const view = project[selectedPreview as keyof Project];
+  const showImage = (selectedPreview === PreviewTypes.sketch || selectedPreview === PreviewTypes.design);
 
-  const showImage = (currentTab === ViewTabs.sketch || currentTab === ViewTabs.design);
+  const showImageView = (showImage && view);
+  const showNoImageView = (showImage && !view);
 
   return (
     <Wrapper>
-      {showImage && (
+      {showImageView && (
         <ImageView src={view as string} />
+      )}
+      {showNoImageView && (
+        <NoImage />
       )}
     </Wrapper>
   );
