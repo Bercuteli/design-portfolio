@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import * as serviceWorker from './serviceWorker';
+import { config } from './config';
 import { GlobalStyle } from './globalStyles';
 import { Routes } from './routes';
 
@@ -9,7 +11,9 @@ ReactDOM.render(
   <React.StrictMode>
     <>
       <GlobalStyle />
-      <Routes />
+      <BrowserRouter basename={config.publicURL}>
+        <Routes />
+      </BrowserRouter>
     </>
   </React.StrictMode>,
   document.getElementById('root')

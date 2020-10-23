@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin: 32px 32px 128px 32px;
-  min-height: calc(100vh - 260px);
+  min-height: calc(100vh - 300px);
   border: 16px solid var(--color-border-monitor);
   border-radius: .5em;
   position: relative;
