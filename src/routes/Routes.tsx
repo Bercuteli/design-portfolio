@@ -18,7 +18,6 @@ const Routes: FC = () => {
   const redirectURL = search.get('p');
   if (redirectURL) {
     history.push(redirectURL);
-    return null;
   }
 
   return (
