@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/design-portfolio/static/js/main.95804b51.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.95804b51.chunk.js.map",
-    "runtime-main.js": "/design-portfolio/static/js/runtime-main.37fb9305.js",
-    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.37fb9305.js.map",
+    "main.js": "/design-portfolio/static/js/main.de60367a.chunk.js",
+    "main.js.map": "/design-portfolio/static/js/main.de60367a.chunk.js.map",
+    "runtime-main.js": "/design-portfolio/static/js/runtime-main.ef347e39.js",
+    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.ef347e39.js.map",
     "static/js/2.22bfcde9.chunk.js": "/design-portfolio/static/js/2.22bfcde9.chunk.js",
     "static/js/2.22bfcde9.chunk.js.map": "/design-portfolio/static/js/2.22bfcde9.chunk.js.map",
-    "static/js/3.02b69275.chunk.js": "/design-portfolio/static/js/3.02b69275.chunk.js",
-    "static/js/3.02b69275.chunk.js.map": "/design-portfolio/static/js/3.02b69275.chunk.js.map",
+    "static/js/3.7d8e1ebf.chunk.js": "/design-portfolio/static/js/3.7d8e1ebf.chunk.js",
+    "static/js/3.7d8e1ebf.chunk.js.map": "/design-portfolio/static/js/3.7d8e1ebf.chunk.js.map",
     "static/js/4.acc4b1d6.chunk.js": "/design-portfolio/static/js/4.acc4b1d6.chunk.js",
     "static/js/4.acc4b1d6.chunk.js.map": "/design-portfolio/static/js/4.acc4b1d6.chunk.js.map",
     "index.html": "/design-portfolio/index.html",
-    "precache-manifest.bb7ef38949fe76681d22d78faa936ccd.js": "/design-portfolio/precache-manifest.bb7ef38949fe76681d22d78faa936ccd.js",
+    "precache-manifest.b4cfecfdf7844501b109e1eefc88b09e.js": "/design-portfolio/precache-manifest.b4cfecfdf7844501b109e1eefc88b09e.js",
     "service-worker.js": "/design-portfolio/service-worker.js",
     "static/js/2.22bfcde9.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.22bfcde9.chunk.js.LICENSE.txt",
     "static/media/design.jpg": "/design-portfolio/static/media/design.e05703aa.jpg",
@@ -19,8 +19,8 @@
     "static/media/sketch.jpg": "/design-portfolio/static/media/sketch.abfc77c2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.37fb9305.js",
+    "static/js/runtime-main.ef347e39.js",
     "static/js/2.22bfcde9.chunk.js",
-    "static/js/main.95804b51.chunk.js"
+    "static/js/main.de60367a.chunk.js"
   ]
 }
