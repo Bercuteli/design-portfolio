@@ -18,7 +18,7 @@ const Routes: FC = () => {
   const redirectURL = search.get('p');
   if (redirectURL) {
     const targetURL = `${window.location.origin}${config.publicURL}${redirectURL}`;
-    window.location.replace(targetURL);
+    window.location.href = targetURL;
   }
 
   return (
