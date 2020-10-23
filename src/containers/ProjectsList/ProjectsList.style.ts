@@ -9,6 +9,12 @@ export const Wrapper = styled.div`
     font-size: 1.2rem;
   }
     
+  .list {
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding-right: 8px;
+  }
+    
   .item {
     padding: 8px;
     margin-top: 16px;

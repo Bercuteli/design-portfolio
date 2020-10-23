@@ -9,7 +9,9 @@ const Project = () => {
   return (
     <Wrapper>
       <ViewTabs />
-      <Preview />
+      <div className="content">
+        <Preview />
+      </div>
     </Wrapper>
   );
 };

@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { Wrapper } from './ImageView.style';
 
 interface Props {
   src: string;
@@ -7,7 +8,9 @@ interface Props {
 const ImageView: FC<Props> = ({ src }) => {
 
   return (
-    <img src={src} alt="Preview" />
+    <Wrapper>
+      <img src={src} alt="Preview" />
+    </Wrapper>
   );
 };
 

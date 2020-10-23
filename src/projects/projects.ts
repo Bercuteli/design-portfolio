@@ -7,6 +7,7 @@ import CatsSystemDesign from './catsSystem/design.jpg';
 import CatsSystemHTML from './catsSystem/html';
 
 // dog-store
+import EmptyTemplate from '../images/empty-template-1440-900.png';
 import DogStoreDesign from './dogStore/design.jpg';
 import DogStoreHTML from './dogStore/html';
 
@@ -23,8 +24,24 @@ export const projects: Array<Project> = [
     id: Projects.dogStore,
     name: 'Dog Store',
     description: 'Everything for your dogs',
-    sketch: '',
+    sketch: EmptyTemplate,
     design: DogStoreDesign,
+    html: DogStoreHTML,
+  },
+  {
+    id: Projects.airport,
+    name: 'Airport',
+    description: 'Buy ticket easily',
+    sketch: '',
+    design: '',
+    html: DogStoreHTML,
+  },
+  {
+    id: Projects.starShip,
+    name: 'Star Ship',
+    description: 'Go to the Moon',
+    sketch: '',
+    design: '',
     html: DogStoreHTML,
   },
 ];

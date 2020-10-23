@@ -10,10 +10,12 @@ export const GlobalStyle = createGlobalStyle`
     --color-bg-primary: #fff;
     --color-bg-secondary: #eaecef;
     --color-bg-accent: #c8e1ff;
+    --color-bg-dark: #333333;
+    --color-bg-gray: #7c7c7c;
     
     --color-border-primary: #e1e4e8;
-    --color-border-monitor: #333;
-    --color-border-stand: #222;
+    --color-border-monitor: #333333;
+    --color-border-stand: #222222;
     
     --color-text-primary: #2f363d;
     --color-text-secondary: #6a737d;
@@ -26,7 +28,21 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 300;
     font-size: 14px;
     color: var(--color-text-primary);
-    padding: 24px;
+    padding: 24px;    
+    overflow: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    //box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-bg-gray);
+    border-radius: 4px;
   }
   
   a {

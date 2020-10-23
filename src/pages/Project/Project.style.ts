@@ -3,4 +3,9 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: block;
   flex-grow: 1;
+  
+  .content {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
 `;
