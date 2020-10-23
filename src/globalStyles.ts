@@ -10,9 +10,14 @@ export const GlobalStyle = createGlobalStyle`
     --color-bg-primary: #fff;
     --color-bg-secondary: #eaecef;
     --color-bg-accent: #c8e1ff;
+    
     --color-border-primary: #e1e4e8;
+    --color-border-monitor: #333;
+    --color-border-stand: #222;
+    
     --color-text-primary: #2f363d;
     --color-text-secondary: #6a737d;
+    
     --shadow-light: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
   }
   
@@ -21,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 300;
     font-size: 14px;
     color: var(--color-text-primary);
+    padding: 24px;
   }
   
   a {

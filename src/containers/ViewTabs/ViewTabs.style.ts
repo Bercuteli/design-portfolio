@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 0 16px 16px 16px;
   
   .item {
-    padding: 8px 16px 10px 16px;
+    padding: 0 16px 10px 16px;
     font-weight: bold;
     position: relative;
     display: inline-block;
