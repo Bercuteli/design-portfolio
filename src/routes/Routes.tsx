@@ -1,7 +1,6 @@
 import React, { FC, Suspense, lazy } from 'react';
-import { Switch, Route, Redirect, useHistory } from 'react-router-dom';
+import { Switch, Route, useHistory } from 'react-router-dom';
 
-import { config } from '../config';
 import { RoutesUI } from '../enums/routes';
 import { ProjectsList } from '../containers/ProjectsList';
 import { Wrapper } from './Routes.style';
