@@ -1,2 +1,0 @@
-(this["webpackJsonpdesign-portfolio"]=this["webpackJsonpdesign-portfolio"]||[]).push([[6],{42:function(n,t,e){"use strict";e.r(t),e.d(t,"Page404",(function(){return r}));var i=e(0),o=e.n(i),r=function(){return o.a.createElement("div",null,"404")};t.default=r}}]);
-//# sourceMappingURL=6.0cd40dc0.chunk.js.map
