@@ -1,9 +1,15 @@
 import { Project } from '../interfaces/project.interface';
 import { Projects } from '../enums/projects';
+import { ImageSizes } from '../enums/imageSizes';
 
 // cats-system
-import CatsSystemSketch from './catsSystem/sketch.jpg';
-import CatsSystemDesign from './catsSystem/design.jpg';
+import CatsSystemPreviewMini from './catsSystem/preview-mini.jpg';
+import CatsSystemSketchOrigin from './catsSystem/sketch-origin.jpg';
+import CatsSystemSketchMiddle from './catsSystem/sketch-middle.jpg';
+import CatsSystemSketchSmall from './catsSystem/sketch-small.jpg';
+import CatsSystemDesignOrigin from './catsSystem/design-origin.jpg';
+import CatsSystemDesignMiddle from './catsSystem/design-middle.jpg';
+import CatsSystemDesignSmall from './catsSystem/design-small.jpg';
 import CatsSystemHTML from './catsSystem/html';
 
 // dog-store
@@ -16,32 +22,33 @@ export const projects: Array<Project> = [
     id: Projects.catsSystem,
     name: 'Cats System',
     description: 'A store with cats toys',
-    sketch: CatsSystemSketch,
-    design: CatsSystemDesign,
+    preview: CatsSystemPreviewMini,
+    sketch: {
+      [ImageSizes.origin]: CatsSystemSketchOrigin,
+      [ImageSizes.middle]: CatsSystemSketchMiddle,
+      [ImageSizes.small]: CatsSystemSketchSmall,
+    },
+    design: {
+      [ImageSizes.origin]: CatsSystemDesignOrigin,
+      [ImageSizes.middle]: CatsSystemDesignMiddle,
+      [ImageSizes.small]: CatsSystemDesignSmall,
+    },
     html: CatsSystemHTML,
   },
   {
     id: Projects.dogStore,
     name: 'Dog Store',
     description: 'Everything for your dogs',
-    sketch: EmptyTemplate,
-    design: DogStoreDesign,
-    html: DogStoreHTML,
-  },
-  {
-    id: Projects.airport,
-    name: 'Airport',
-    description: 'Buy ticket easily',
-    sketch: '',
-    design: '',
-    html: DogStoreHTML,
-  },
-  {
-    id: Projects.starShip,
-    name: 'Star Ship',
-    description: 'Go to the Moon',
-    sketch: '',
-    design: '',
+    sketch: {
+      [ImageSizes.origin]: EmptyTemplate,
+      [ImageSizes.middle]: EmptyTemplate,
+      [ImageSizes.small]: EmptyTemplate,
+    },
+    design: {
+      [ImageSizes.origin]: DogStoreDesign,
+      [ImageSizes.middle]: DogStoreDesign,
+      [ImageSizes.small]: DogStoreDesign,
+    },
     html: DogStoreHTML,
   },
 ];

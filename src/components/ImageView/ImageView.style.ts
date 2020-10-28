@@ -8,7 +8,10 @@ export const Wrapper = styled.div`
   height: 100%;
   
   img {
-    width: auto;
     height: calc(100vh - 200px);
+    width: auto;
+    max-width: calc(100vw - 400px);
+    object-fit: contain;
+    object-position: center;
   }
 `;

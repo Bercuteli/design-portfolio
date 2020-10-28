@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   
   .content {
     max-height: calc(100vh - 100px);
+    max-width: calc(100vw - 300px);
     overflow-y: auto;
   }
 `;

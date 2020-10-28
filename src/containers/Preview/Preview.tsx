@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { Project } from '../../interfaces/project.interface';
+import { ImageSet, Project } from '../../interfaces/project.interface';
 import { PreviewTypes } from '../../enums/previewTypes';
 import { projects } from '../../projects/projects';
 
@@ -24,16 +24,16 @@ const Preview: FC = () => {
   }
 
   const selectedPreview: PreviewTypes = previewType as PreviewTypes;
-  const view = project[selectedPreview as keyof Project];
+  const imageSet = project[selectedPreview as keyof Project];
   const showImage = (selectedPreview === PreviewTypes.sketch || selectedPreview === PreviewTypes.design);
 
-  const showImageView = (showImage && view);
-  const showNoImageView = (showImage && !view);
+  const showImageView = (showImage && imageSet);
+  const showNoImageView = (showImage && !imageSet);
 
   return (
     <Wrapper>
       {showImageView && (
-        <ImageView src={view as string} />
+        <ImageView imageSet={imageSet as ImageSet} />
       )}
       {showNoImageView && (
         <NoImage />
