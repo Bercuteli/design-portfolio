@@ -33,5 +33,16 @@ export const Wrapper = styled.div`
   
   &.portrait {
     min-height: auto;
+    border: 8px solid var(--color-border-monitor);
+    border-radius: .2em;
+    margin: 16px;
+    
+    &:before {
+      display:none;
+    }
+    
+    &:after {
+      display:none;
+    }
   } 
 `;

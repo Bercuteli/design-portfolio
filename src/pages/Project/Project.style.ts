@@ -11,7 +11,9 @@ export const Wrapper = styled.div`
   }
   
   &.portrait {
-    max-width: calc(100vw - 32px);
-    max-height: available;
+    .content {
+      max-width: calc(100vw - 32px);
+      max-height: available;
+    }
   }
 `;
