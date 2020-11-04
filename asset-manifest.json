@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.js": "/design-portfolio/static/js/main.9ac0ac17.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.9ac0ac17.chunk.js.map",
-    "runtime-main.js": "/design-portfolio/static/js/runtime-main.ff5d59d8.js",
-    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.ff5d59d8.js.map",
-    "static/js/2.62a029a7.chunk.js": "/design-portfolio/static/js/2.62a029a7.chunk.js",
-    "static/js/2.62a029a7.chunk.js.map": "/design-portfolio/static/js/2.62a029a7.chunk.js.map",
-    "static/js/3.dad1ff2a.chunk.js": "/design-portfolio/static/js/3.dad1ff2a.chunk.js",
-    "static/js/3.dad1ff2a.chunk.js.map": "/design-portfolio/static/js/3.dad1ff2a.chunk.js.map",
-    "static/js/4.c8315556.chunk.js": "/design-portfolio/static/js/4.c8315556.chunk.js",
-    "static/js/4.c8315556.chunk.js.map": "/design-portfolio/static/js/4.c8315556.chunk.js.map",
+    "main.js": "/design-portfolio/static/js/main.c0cbc09a.chunk.js",
+    "main.js.map": "/design-portfolio/static/js/main.c0cbc09a.chunk.js.map",
+    "runtime-main.js": "/design-portfolio/static/js/runtime-main.e84216dd.js",
+    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.e84216dd.js.map",
+    "static/js/2.b7e46b54.chunk.js": "/design-portfolio/static/js/2.b7e46b54.chunk.js",
+    "static/js/2.b7e46b54.chunk.js.map": "/design-portfolio/static/js/2.b7e46b54.chunk.js.map",
+    "static/js/3.1192f0a2.chunk.js": "/design-portfolio/static/js/3.1192f0a2.chunk.js",
+    "static/js/3.1192f0a2.chunk.js.map": "/design-portfolio/static/js/3.1192f0a2.chunk.js.map",
+    "static/js/4.84642e87.chunk.js": "/design-portfolio/static/js/4.84642e87.chunk.js",
+    "static/js/4.84642e87.chunk.js.map": "/design-portfolio/static/js/4.84642e87.chunk.js.map",
     "index.html": "/design-portfolio/index.html",
-    "precache-manifest.1fcf3c44ad66c1943218acd74d4e9c79.js": "/design-portfolio/precache-manifest.1fcf3c44ad66c1943218acd74d4e9c79.js",
+    "precache-manifest.dc2de70ca235466e52faeae1a7714ec7.js": "/design-portfolio/precache-manifest.dc2de70ca235466e52faeae1a7714ec7.js",
     "service-worker.js": "/design-portfolio/service-worker.js",
-    "static/js/2.62a029a7.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.62a029a7.chunk.js.LICENSE.txt",
-    "static/media/design.jpg": "/design-portfolio/static/media/design.e05703aa.jpg",
-    "static/media/empty-template-1440-900.png": "/design-portfolio/static/media/empty-template-1440-900.b4de93da.png",
+    "static/js/2.b7e46b54.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.b7e46b54.chunk.js.LICENSE.txt",
+    "static/media/design-middle.png": "/design-portfolio/static/media/design-middle.99e6a75f.png",
+    "static/media/design-origin.png": "/design-portfolio/static/media/design-origin.d957321f.png",
+    "static/media/design-small.png": "/design-portfolio/static/media/design-small.dd70c4bb.png",
     "static/media/image-gallery.svg": "/design-portfolio/static/media/image-gallery.656fc865.svg",
-    "static/media/sketch.jpg": "/design-portfolio/static/media/sketch.abfc77c2.jpg"
+    "static/media/preview-mini.png": "/design-portfolio/static/media/preview-mini.82ce7fdd.png",
+    "static/media/sketch-middle.png": "/design-portfolio/static/media/sketch-middle.b6693b2e.png",
+    "static/media/sketch-origin.png": "/design-portfolio/static/media/sketch-origin.450c736c.png",
+    "static/media/sketch-small.png": "/design-portfolio/static/media/sketch-small.2136b23f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff5d59d8.js",
-    "static/js/2.62a029a7.chunk.js",
-    "static/js/main.9ac0ac17.chunk.js"
+    "static/js/runtime-main.e84216dd.js",
+    "static/js/2.b7e46b54.chunk.js",
+    "static/js/main.c0cbc09a.chunk.js"
   ]
 }
