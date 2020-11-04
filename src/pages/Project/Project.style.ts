@@ -9,4 +9,9 @@ export const Wrapper = styled.div`
     max-width: calc(100vw - 300px);
     overflow-y: auto;
   }
+  
+  &.portrait {
+    max-width: calc(100vw - 32px);
+    max-height: available;
+  }
 `;

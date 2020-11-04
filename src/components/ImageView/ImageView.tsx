@@ -1,8 +1,11 @@
 import React, { FC } from 'react';
-import { Wrapper } from './ImageView.style';
+
 import { ImageSet } from '../../interfaces/project.interface';
 import { MediaQueries } from '../../enums/mediaQueries';
 import { ImageSizes } from '../../enums/imageSizes';
+
+import { useWrapperClass } from '../../hooks/useWrapperClass';
+import { Wrapper } from './ImageView.style';
 
 interface Props {
   imageSet: ImageSet;
@@ -18,6 +21,7 @@ const sizes = [
 ]
 
 const ImageView: FC<Props> = ({ imageSet }) => {
+  const wrapperClass = useWrapperClass();
 
   const sources = sizes.map(item => {
     const { media, size } = item;
@@ -35,7 +39,7 @@ const ImageView: FC<Props> = ({ imageSet }) => {
   const originName = imageSet[ImageSizes.origin];
 
   return (
-    <Wrapper>
+    <Wrapper className={wrapperClass}>
       <picture>
         {sources}
         <img src={originName} alt="Preview" />

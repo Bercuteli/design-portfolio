@@ -30,4 +30,8 @@ export const Wrapper = styled.div`
      height: 16px;
      top: calc(100% + 48px);
   }
+  
+  &.portrait {
+    min-height: auto;
+  } 
 `;

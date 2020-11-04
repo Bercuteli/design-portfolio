@@ -5,14 +5,21 @@ import { useLocation, NavLink } from 'react-router-dom';
 import NoImage from '../../images/no-image.png';
 
 import { projects } from '../../projects/projects';
+import { useOrientationPortrait } from '../../hooks/useOrientationPortrait';
+import { useWrapperClass } from '../../hooks/useWrapperClass';
+
 import { Wrapper } from './ProjectsList.style';
 
 const ProjectsList = () => {
+  const isPortrait = useOrientationPortrait()
+  const wrapperClass = useWrapperClass();
   const { pathname } = useLocation();
 
   return (
-    <Wrapper>
-      <h3>Projects</h3>
+    <Wrapper className={wrapperClass}>
+      {!isPortrait && (
+        <h3>Projects</h3>
+      )}
       <div className="list">
         {projects.map(project => {
           const { id, name, description, preview } = project;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: block;
   padding: 0 24px 0 0;
-  
+    
   h3 {
     font-weight: bold;
     font-size: 1.2rem;
@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
     
   .list {
     max-height: calc(100vh - 60px);
+    max-width: 224px;
     overflow-y: auto;
     padding-right: 8px;
   }
@@ -40,6 +41,22 @@ export const Wrapper = styled.div`
       width: 200px;
       height: 124px;
       border-radius: 4px;
+    }
+  }
+  
+  &.portrait {
+    padding: 24px 8px 8px 8px;
+    
+    .list {
+      max-height: 224px;
+      max-width: calc(100vw - 16px);
+      overflow-x: auto;
+      padding-top: 8px;
+    }
+    
+    .item {
+      margin-top: 0;
+      margin-right: 16px;
     }
   }
 `;

@@ -5,11 +5,14 @@ import { ImageSet, Project } from '../../interfaces/project.interface';
 import { PreviewTypes } from '../../enums/previewTypes';
 import { projects } from '../../projects/projects';
 
+import { useWrapperClass } from '../../hooks/useWrapperClass';
+
 import { ImageView } from '../../components/ImageView';
 import { NoImage } from '../../components/NoImage';
 import { Wrapper } from './Preview.style';
 
 const Preview: FC = () => {
+  const wrapperClass = useWrapperClass();
   const {
     projectName,
     previewType = PreviewTypes.design,
@@ -31,7 +34,7 @@ const Preview: FC = () => {
   const showNoImageView = (showImage && !imageSet);
 
   return (
-    <Wrapper>
+    <Wrapper className={wrapperClass}>
       {showImageView && (
         <ImageView imageSet={imageSet as ImageSet} />
       )}

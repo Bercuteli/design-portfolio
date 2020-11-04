@@ -14,4 +14,12 @@ export const Wrapper = styled.div`
     object-fit: contain;
     object-position: center;
   }
+  
+  &.portrait {
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
 `;
